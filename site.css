@@ -84,7 +84,34 @@
     background-color: #ccc;
 }
 
+.consultation-form-section-inactive{
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e8e8e8;
+    border-radius: 11px;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    margin:2px;
+}
 
+.consultation-form-section-active{
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #130f26;
+    color:white;
+    border-radius: 11px;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    margin:2px;
+}
+
+.consultation-form-section-inactive:hover{
+    cursor:pointer;
+}
 
 @media screen and (max-width: 400px) and (min-width: 0px) {
     .centralised-section{
