@@ -3,6 +3,11 @@
     font-weight: 700;
 }
 
+.custom-h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .custom-h3{
     font-weight: 700;
     font-size: 25px;
@@ -58,6 +63,13 @@
     background-color: black;
     color: white;
     transition: 0.2s;
+}
+
+.custom-dashed-white-btn{
+    background-color: white;
+    color:#5c5c5c;
+    font-weight: bold;
+    border:2px dashed #5c5c5c;
 }
 
 .btn:focus,.btn:active {
